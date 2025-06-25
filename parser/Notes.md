@@ -1,4 +1,4 @@
-# Required changes
+# Necessary changes
 
 ## Parsing forms  
 1. All records are parsed, but not all fields are written to the output file.
