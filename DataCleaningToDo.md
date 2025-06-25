@@ -2,7 +2,7 @@
 
 ### 2025-06-24 Tasks for CDE project
 
-1. Remove HTML
+1. Remove HTML **Done --mostly** (still need to detect html tables and return json)
 2. Identify history, use only recent
 3. Identify repeated phrases (8+ words ignoring case), export list first for review. EAV format, phrase plus list of id's
   - Remove selected phrases
