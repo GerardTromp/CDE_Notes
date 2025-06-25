@@ -11,3 +11,8 @@ Example:
 ### Data contain embedded HTML  
 ### Data contain disclaimer text 
 Disclaimer text, important as it may be, needs to be removed prior to use. 
+
+### Data elements (model classes) that do not exist in the documenation
+1. newCde
+   This is a class not defined but is found in `Cd` data
+3. x
