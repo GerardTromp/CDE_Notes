@@ -1,4 +1,4 @@
-# CDE obsservations  
+# CDE observations  
 
 The project uses the data on the CDE repository. There is an extensive API that defines the Form and Cd models. 
 
@@ -9,7 +9,12 @@ Example:
 `formElements` defined in `Form` are in `Cd`, see `ctyKfVm8k_B`
 
 ### Data contain embedded HTML  
-### Data contain disclaimer text 
+
+### Missing model keys (Fields)  
+#### cdeTinyIds  
+The data contain a list element at the highest level in `Form`, but this is not in the API documentation.
+
+## Data contain disclaimer text 
 Disclaimer text, important as it may be, needs to be removed prior to use. 
 
 ## Python `pydantic` and keys (Fields) with leading underscores  
