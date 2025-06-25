@@ -2,9 +2,21 @@ from typing import List, Optional, Dict, Any, Union
 from pydantic import BaseModel, Field
 
 
+class Url(BaseModel):
+    x_id: Optional[str]
+    url: Optional[str]
+    valid: Optional[bool]
+
+
 class Copyright(BaseModel):
     value: Optional[str] = None
     valueFormat: Optional[str] = None
+
+
+class FormCopyright(BaseModel):
+    authority: Optional[str] = None
+    valueFormat: Optional[str] = None
+    urls: Optional[List[Url]] = None
 
 
 class Source(BaseModel):
@@ -312,6 +324,7 @@ class UndefinedDictModel(BaseModel):
 
 class FormElement(BaseModel):
     elementType: Optional[str]
+    formElements: Optional[List["FormElement"]]
     instructions: Optional[Instruction] = None
     inForm: Optional[InForm] = None
     label: Optional[str] = None

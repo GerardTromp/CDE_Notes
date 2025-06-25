@@ -25,6 +25,7 @@ from .classes import (
     ElementInner,
     Form,
     FormElement,
+    FormCopyright,
     Identifier,
     InForm,
     Instruction,
@@ -57,7 +58,7 @@ class CDEForm(BaseModel):
     archived: Optional[bool]
     changeNote: Optional[str] = None
     comments: Optional[List[Comment]] = None
-    copyright: Optional[Copyright]
+    copyright: Optional[FormCopyright]
     created: Optional[str] = None
     createdBy: Optional[CreatedBy]
     elementType: Optional[str]

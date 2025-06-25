@@ -25,6 +25,7 @@ from .classes import (
     ElementInner,
     Form,
     FormElement,
+    FormCopyright,
     Identifier,
     InForm,
     Instruction,
@@ -49,6 +50,7 @@ from .classes import (
 
 __all__ = [
     "Copyright",
+    "FormCopyright",
     "Source",
     "CreatedBy",
     "UpdatedBy",
