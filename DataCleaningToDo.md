@@ -5,7 +5,7 @@
 1. Remove HTML
 2. Identify history, use only recent
 3. Identify repeated phrases (8+ words ignoring case), export list first for review. EAV format, phrase plus list of id's
-  - Remove selected phrases
+   - Remove selected phrases
 4. Identify CDEs with empty fields, especially our fields of interest (Name, Question, Description. Permissible Values)
 5. Identify corresponding Forms that have embedded CDEs, i.e., generate Form TinyId: List(CDE TinyIDs) (Possibly reverse for faster iteration)
 6. Identify CDE-Forms with CDEs that have permissible values with non-null, non-empty valueNameMeaning (?)
